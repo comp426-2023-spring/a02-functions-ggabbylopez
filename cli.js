@@ -26,11 +26,11 @@ var latitude = args.n || -1 * args.s;
 var longitude = args.e || -1 * args.w;
 
 const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=' + latitude + '&longitude=' + longitude + '&daily=precipitation_hours&temperature_unit=fahrenheit&timezone=' + timezone);
-const data = await response.j;
+const data = await response.json();
 
 if (args.j){
     console.log(data);
-    process.log(0);
+    process.exit(0);
 }
 
 
