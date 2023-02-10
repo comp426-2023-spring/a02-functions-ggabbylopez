@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/comp426-2023-spring/a02-functions-ggabbylopez#readme",
   "dependencies": {
-    "minimist": "^1.2.7",
+    "minimist": "^1.2.8",
     "moment-timezone": "^0.5.40",
     "node-fetch": "^3.3.0"
   }
